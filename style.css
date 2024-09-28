@@ -194,3 +194,56 @@ cursor: pointer;
     width: 100%;
 }
 
+
+@media (max-width: 430px) {
+    h1 {
+        font-size: 36px; 
+        margin-top: 20px;
+    }
+
+
+
+    address, h3 {
+        font-size: 18px; 
+        padding-left: 10px; 
+    }
+
+    .BoxLongtext {
+        width: 100%; 
+        height: auto; 
+        font-size: 20px; 
+    }
+
+    .base {
+        flex-direction: column; 
+    }
+
+    .photos {
+        flex-direction: column; 
+        gap: 20px; 
+    }
+
+    .photos img {
+        width: 80%; 
+    }
+
+    .punkts {
+        grid-template-columns: 1fr; 
+    }
+
+    .silki, .opisaniya {
+        flex-direction: column; 
+        align-items: center; 
+    }
+
+    b {
+        font-size: 18px; 
+        padding: 10px; 
+    }
+
+    #Name {
+        font-size: 1.2em; 
+        margin-top: 10px;
+    }
+
+}
